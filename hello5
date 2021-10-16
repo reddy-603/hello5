@@ -1,0 +1,17 @@
+inut
+w= input('enter a string')
+def most_frequent(string):
+    d = dict()
+    for key in string:
+        if key not in d: 
+            d[key] = 1
+        else:
+            d[key] += 1
+    return d
+
+print (most_frequent(w))
+
+
+output
+enter a stringmississippi
+{'m': 1, 'i': 4, 's': 4, 'p': 2}
